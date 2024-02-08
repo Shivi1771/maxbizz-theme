@@ -1,0 +1,193 @@
+.container {
+    justify-content: center;
+}
+.image {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 300px 10px;
+}
+.text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px 10px;
+    margin: 0 50px 0 50px;
+
+}
+.button-link { 
+    display: inline-block; 
+    padding: 10px 20px; 
+    background-color:bisque; 
+    color: black; 
+    text-decoration:solid; 
+    
+    border: 1px solid #333;
+    border-color: lightpink; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+  } 
+   
+  .button-link:hover { 
+    background-color: #0056b3; 
+  } 
+
+  .navigation {
+    background-color: black;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0 5%;
+  }
+  .navigation ul {
+    list-style: none;
+    display: flex;
+  }
+.navigation ul li {
+    padding: 50px 50px;
+}
+.navigation ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.navigation ul li a:hover {
+    color: aquamarine;
+}
+.bg {
+    position: relative;
+}
+
+/*This CSS code is defining the
+styles for a container that holds text*/
+.bgtext {
+    position: absolute;
+    color: white;
+    left: 18rem;
+    top: 2rem;
+    padding: 20% 1rem;
+}
+.button-container {
+    display: flex;
+}
+.button-link1{
+    display: inline-block; 
+    color: white;
+    background-color: orange;
+    text-decoration:solid; 
+    padding: 10px 20px;
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+}
+
+.button-link2 {
+    display: inline-block; 
+    padding: 10px 20px;
+    color: white;
+    text-decoration:solid; 
+    border: 1px solid white;
+    background-color: transparent;
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+}
+.button-link1:hover { 
+    background-color: #0056b3; 
+  } 
+  .button-link2:hover { 
+    background-color: #0056b3; 
+  } 
+
+  .box {
+
+    display: flex;
+    border: 2px;
+    /* padding: 30% 15%; */
+    width: 100%;
+    
+
+}
+
+
+.boxes {
+    display: flex;
+    flex: 1;
+    margin: 15px;
+    padding: 40px;
+    background-color: white;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+.i1 {
+    width: 30px;
+    height: 80px;
+}
+.t1 {
+    /* width: 100px; */
+    height: 80px;
+}
+/* .c1 {
+    display: flex;
+    float: left;
+    width: 70%;
+
+} */
+/* .im1 {
+    width: 50px;
+    height: 50px;
+} */
+.c1{
+    width: 100%;
+    float: left;
+}
+.inner-c1{
+    width: 55%;
+    height: auto;
+    float: left;
+}
+.inner-c2{
+    width: 45%;
+    height: auto;
+    float: left;
+}
+.about{
+    border-radius: 30px;
+    color: #fe8423;
+    border: 1px solid #fe8423;
+    background: rgba(254,132,35,.1);
+    padding: 4px 5px 5px 5px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.title1{
+    margin-top: 180px;
+}
+.title1 p{
+    border: 3px solid orange;
+    border-radius: 20px;
+    color: orange;
+    background-color: whitesmoke;
+    align-items: center;
+    justify-content: center;
+}
+.content1 {
+    color: black;
+}
+.content1 p{
+    font-size:  16px;
+    /* padding: 0px 20px;
+     */
+     line-height:2;
+     padding-top: 10px;
+}
+.c2{
+    width: 100%;
+    float: left;
+
+}
+.c2 img{
+    width: 100%;
+}
